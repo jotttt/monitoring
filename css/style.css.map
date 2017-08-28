@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "style.css",
+  "sources": [
+    "../scss/style.scss",
+    "../scss/_fonts.scss",
+    "../scss/_variables.scss",
+    "../scss/_images.scss",
+    "../scss/_elements.scss"
+  ],
+  "names": [],
+  "mappings": ";ACAA,UAAU;EACN,WAAW,EAAE,WAAW;EACxB,GAAG,EAAE,6BAA6B;EAClC,GAAG,EAAE,YAAY,EAAE,kCAAkC,CAAC,cAAc,EAAE,iCAAiC,CAAC,kBAAkB,EAAE,iCAAiC,CAAC,aAAa;EAC3K,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;;AAEtB,UAAU;EACN,WAAW,EAAE,eAAe;EAC5B,GAAG,EAAE,6BAA6B;EAClC,GAAG,EAAE,YAAY,EAAE,kCAAkC,CAAC,cAAc,EAAE,iCAAiC,CAAC,kBAAkB,EAAE,iCAAiC,CAAC,aAAa;EAC3K,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM"
+}

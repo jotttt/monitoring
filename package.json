@@ -1,0 +1,16 @@
+{
+  "name": "monitoring",
+  "version": "0.0.1",
+  "description": "monitoring interface for different IT services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Johann L.",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.3"
+  }
+}
