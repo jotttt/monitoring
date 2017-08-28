@@ -1,16 +1,130 @@
 @charset "UTF-8";
 @font-face {
   font-family: 'Open Sans';
+  src: url("../fonts/open-sans-regular");
+  src: local("☺"), url("../fonts/open-sans-regular.woff") format("woff"), url("../fonts/open-sans-regular.ttf") format("truetype"), url("../fonts/open-sans-regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans Light';
   src: url("../fonts/open-sans-300");
   src: local("☺"), url("../fonts/open-sans-300.woff") format("woff"), url("../fonts/open-sans-300.ttf") format("truetype"), url("../fonts/open-sans-300.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'Antonio Light';
-  src: url("../fonts/antonio-light");
-  src: local("☺"), url("../fonts/antonio-light.woff") format("woff"), url("../fonts/antonio-light.ttf") format("truetype"), url("../fonts/antonio-light.svg") format("svg");
+  font-family: 'Open Sans Bold';
+  src: url("../fonts/open-sans-600");
+  src: local("☺"), url("../fonts/open-sans-600.woff") format("woff"), url("../fonts/open-sans-600.ttf") format("truetype"), url("../fonts/open-sans-600.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans Extra Bold';
+  src: url("../fonts/open-sans-700");
+  src: local("☺"), url("../fonts/open-sans-700.woff") format("woff"), url("../fonts/open-sans-700.ttf") format("truetype"), url("../fonts/open-sans-700.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 5, ../../Users/Admin/Documents/webdev/monitoring/scss/_elements.scss */
+body {
+  background: #221f1f;
+  font-family: 'Open Sans', sans-serif;
+  color: white; }
+
+/* line 13, ../../Users/Admin/Documents/webdev/monitoring/scss/_elements.scss */
+h1 {
+  font-family: 'Open Sans Light', sans-serif;
+  font-size: 3rem;
+  margin: 30px 0 9px 0; }
+
+/* line 19, ../../Users/Admin/Documents/webdev/monitoring/scss/_elements.scss */
+h2 {
+  font-family: 'Open Sans Light', sans-serif;
+  font-size: 2rem;
+  padding-top: 1rem; }
+
+/* line 25, ../../Users/Admin/Documents/webdev/monitoring/scss/_elements.scss */
+h3 {
+  font-family: 'Open Sans Bold', sans-serif;
+  text-transform: uppercase; }
+
+/* line 30, ../../Users/Admin/Documents/webdev/monitoring/scss/_elements.scss */
+h4 {
+  font-family: 'Open Sans Extra Bold', sans-serif;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  text-transform: uppercase;
+  overflow: hidden; }
+  /* line 37, ../../Users/Admin/Documents/webdev/monitoring/scss/_elements.scss */
+  h4:after {
+    content: "";
+    display: inline-block;
+    height: 0.45em;
+    vertical-align: bottom;
+    width: 100%;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 4px solid #3d3d3d; }
+
+/* line 48, ../../Users/Admin/Documents/webdev/monitoring/scss/_elements.scss */
+.text-success {
+  color: #0DBC34 !important; }
+
+/* line 58, ../../Users/Admin/Documents/webdev/monitoring/scss/_elements.scss */
+.monitor-main .row {
+  margin-bottom: 16px;
+  padding: 0 30px 0 60px; }
+  /* line 62, ../../Users/Admin/Documents/webdev/monitoring/scss/_elements.scss */
+  .monitor-main .row .col-3 {
+    padding: 0 8px; }
+    /* line 65, ../../Users/Admin/Documents/webdev/monitoring/scss/_elements.scss */
+    .monitor-main .row .col-3 .monitor-indicator {
+      display: block;
+      width: 100%;
+      height: 186px;
+      background: #313131;
+      padding: 1rem;
+      border: 2px solid #3d3d3d;
+      border-radius: 3px;
+      -webkit-box-shadow: 0px 0px 1px 0px black;
+      -moz-box-shadow: 0px 0px 1px 0px black;
+      box-shadow: 0px 0px 1px 0px black; }
+      /* line 77, ../../Users/Admin/Documents/webdev/monitoring/scss/_elements.scss */
+      .monitor-main .row .col-3 .monitor-indicator.green {
+        background: #0DBC34;
+        border: 2px solid #46dc67; }
+      /* line 82, ../../Users/Admin/Documents/webdev/monitoring/scss/_elements.scss */
+      .monitor-main .row .col-3 .monitor-indicator.green {
+        background: #e61028;
+        border: 2px solid #46dc67; }
+
+/* line 94, ../../Users/Admin/Documents/webdev/monitoring/scss/_elements.scss */
+.monitor-details {
+  margin: 30px 0; }
+  /* line 97, ../../Users/Admin/Documents/webdev/monitoring/scss/_elements.scss */
+  .monitor-details .row {
+    margin-bottom: 16px;
+    padding: 0 60px 0 30px; }
+  /* line 102, ../../Users/Admin/Documents/webdev/monitoring/scss/_elements.scss */
+  .monitor-details .monitor-info {
+    display: block;
+    width: 100%;
+    background: #313131;
+    padding: 1rem;
+    border: 2px solid #3d3d3d;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 1px 0px black;
+    -moz-box-shadow: 0px 0px 1px 0px black;
+    box-shadow: 0px 0px 1px 0px black; }
+    /* line 113, ../../Users/Admin/Documents/webdev/monitoring/scss/_elements.scss */
+    .monitor-details .monitor-info .fa, .monitor-details .monitor-info h1 {
+      display: block;
+      text-align: right;
+      margin: 10px 0 20px 0; }
+    /* line 119, ../../Users/Admin/Documents/webdev/monitoring/scss/_elements.scss */
+    .monitor-details .monitor-info .fa-check-circle {
+      color: #0DBC34; }
 
 /*# sourceMappingURL=style.css.map */

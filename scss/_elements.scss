@@ -1,4 +1,124 @@
-// BUTTONS ////////////////////////////////////////////////
+// BASE ///////////////////////////////////////////////////
+html {
 
-// end buttons --------------------------------------------
+}
+body {
+    background: $grey-darker;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
 
+
+
+h1 {
+    font-family: 'Open Sans Light', sans-serif;
+    font-size: 3rem;
+    margin: 30px 0 9px 0;
+}
+
+h2 {
+    font-family: 'Open Sans Light', sans-serif;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+h3 {
+    font-family: 'Open Sans Bold', sans-serif;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: 'Open Sans Extra Bold', sans-serif;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    text-transform: uppercase;
+    overflow: hidden;
+
+    &:after {
+        content:"";
+        display: inline-block;
+        height: 0.45em;
+        vertical-align: bottom;
+        width: 100%;
+        margin-right: -100%;
+        margin-left: 10px;
+        border-top: 4px solid $grey-lightest;
+    }
+}
+.text-success {
+    color: $green !important;
+}
+
+// base end -----------------------------------------------
+
+// MONITOR MAIN //////////////////////////////
+.monitor-main {
+
+
+    .row {
+        margin-bottom: 16px;
+        padding: 0 30px 0 60px;
+
+        .col-3 {
+            padding: 0 8px;
+
+            .monitor-indicator {
+                display: block;
+                width: 100%;
+                height: 186px;
+                background: $grey-lighter;
+                padding: 1rem;
+                border: 2px solid $grey-lightest;
+                border-radius: 3px;
+                -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 1);
+                -moz-box-shadow:    0px 0px 1px 0px rgba(0, 0, 0, 1);
+                box-shadow:         0px 0px 1px 0px rgba(0, 0, 0, 1);
+
+                &.green {
+                    background: $green;
+                    border: 2px solid $green-lighter;
+                }
+
+                &.green {
+                    background: $red;
+                    border: 2px solid $green-lighter;
+                }
+            }
+        }
+
+    }
+}
+// end --------------------------------------------
+
+// MONITOR MAIN //////////////////////////////
+.monitor-details {
+    margin: 30px 0;
+
+    .row {
+        margin-bottom: 16px;
+        padding: 0 60px 0 30px;
+    }
+
+    .monitor-info {
+        display: block;
+        width: 100%;
+        background: $grey-lighter;
+        padding: 1rem;
+        border: 2px solid $grey-lightest;
+        border-radius: 3px;
+        -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 1);
+        -moz-box-shadow:    0px 0px 1px 0px rgba(0, 0, 0, 1);
+        box-shadow:         0px 0px 1px 0px rgba(0, 0, 0, 1);
+
+        .fa, h1 {
+            display: block;
+            text-align: right;
+            margin: 10px 0 20px 0;
+        }
+
+        .fa-check-circle {
+            color: $green;
+        }
+    }
+
+}
